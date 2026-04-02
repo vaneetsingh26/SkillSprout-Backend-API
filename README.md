@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=1000&color=4EA94B&center=true&vCenter=true&width=600&lines=🌱+SkillSprout+Backend+API;Built+for+Scale.+Built+for+Security." alt="Typing SVG" />
+![Header](https://capsule-render.vercel.app/api?type=waving&color=4EA94B&height=120&section=header&text=🌱%20SkillSprout%20Backend%20API&fontSize=32&fontColor=white&animation=fadeIn)
 
 <br/>
 
