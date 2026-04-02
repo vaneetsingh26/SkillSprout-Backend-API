@@ -37,20 +37,16 @@ cron.schedule("0 0 */5 * *", async () => {
 app.use(express.json());
 app.use(cookieParser());
 
-const CLIENT_URL = process.env.CLIENT_URL || "http://localhost:3000";
-const additionalDevOrigins = [
-    "http://localhost:5173",
-    "http://localhost:5174",
-    "http://localhost:5175",
-];
-const allowedOrigins = [CLIENT_URL, ...additionalDevOrigins];
+const CLIENT_URL = process.env.CLIENT_URL || "https://your-future-frontend-domain.com";
 
 app.use(
     cors({
         origin: function (origin, callback) {
-            // allow requests with no origin (like mobile apps, curl, or Postman)
+            // Allow requests with no origin (like Postman or mobile apps)
             if (!origin) return callback(null, true);
-            if (allowedOrigins.includes(origin)) {
+            
+            // Allow the specific frontend URL
+            if (origin === CLIENT_URL) {
                 return callback(null, true);
             } else {
                 return callback(
