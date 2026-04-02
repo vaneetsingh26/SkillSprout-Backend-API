@@ -19,8 +19,8 @@
 
 <br/>
 
-[![GitHub Stars](https://img.shields.io/github/stars/vaneetsingh/SkillSprout-Backend-API?style=social)](https://github.com/vaneetsingh/SkillSprout-Backend-API)
-[![GitHub Forks](https://img.shields.io/github/forks/vaneetsingh/SkillSprout-Backend-API?style=social)](https://github.com/vaneetsingh/SkillSprout-Backend-API)
+[![GitHub Stars](https://img.shields.io/github/stars/vaneetsingh26/SkillSprout-Backend-API?style=social)](https://github.com/vaneetsingh26/SkillSprout-Backend-API)
+[![GitHub Forks](https://img.shields.io/github/forks/vaneetsingh26/SkillSprout-Backend-API?style=social)](https://github.com/vaneetsingh26/SkillSprout-Backend-API)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <br/>
@@ -135,7 +135,7 @@ SkillSprout-Backend-API/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/vaneetsingh/SkillSprout-Backend-API.git
+git clone https://github.com/vaneetsingh26/SkillSprout-Backend-API.git
 cd SkillSprout-Backend-API
 ```
 
