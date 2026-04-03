@@ -3,7 +3,7 @@ const Profile = require('../models/Profile');
 const Course = require('../models/Course');
 const CourseProgress = require('../models/CourseProgress');
 const Section = require('../models/Section');
-const Subsection = require('../models/SubSection');
+const SubSection = require('../models/SubSection');
 const RatingAndReview = require('../models/RatingAndReview');
 
 const mailSender = require('./mailSender');
